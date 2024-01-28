@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite",
+      "brokenLocator": "//a[@id\u003d\u0027nav-hamburger-menu\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite_position.png"
+    }
+  ]
 }

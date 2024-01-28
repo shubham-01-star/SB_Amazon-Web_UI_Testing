@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ValidateAmazon_Login_Internal_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c86f4a01-c129-4037-b013-3efd49305398</testCaseGuid>
+</TestCaseEntity>

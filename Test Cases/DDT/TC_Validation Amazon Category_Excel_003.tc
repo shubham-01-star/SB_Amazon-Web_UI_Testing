@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Validation Amazon Category_Excel_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5e817bf-49f4-49e8-b526-ded276134cfb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c119eebe-1ebd-44b7-9166-0a171c88c413</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc39c1c9-679c-4311-81fb-0acbb1c5838c</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

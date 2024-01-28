@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manual mode,Chrome 120.0.0.0,,,28-01-2024 17:00:00,28-01-2024 17:00:13,13.073s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006,Chrome 120.0.0.0,,,28-01-2024 17:00:00,28-01-2024 17:00:13,12.339s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 17:00:01,28-01-2024 17:00:01,0.856s,ERROR
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 17:00:02,28-01-2024 17:00:03,1.499s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,28-01-2024 17:00:03,28-01-2024 17:00:05,2.159s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Deliver to""))",Chrome 120.0.0.0,,,28-01-2024 17:00:05,28-01-2024 17:00:06,0.888s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Ship outside the US""))",Chrome 120.0.0.0,,,28-01-2024 17:00:06,28-01-2024 17:00:08,1.456s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Singapore""))",Chrome 120.0.0.0,,,28-01-2024 17:00:08,28-01-2024 17:00:08,0.846s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/button_Done""))",Chrome 120.0.0.0,,,28-01-2024 17:00:08,28-01-2024 17:00:10,1.643s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Singapore""), 0)",Chrome 120.0.0.0,,,28-01-2024 17:00:10,28-01-2024 17:00:13,2.486s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 17:00:13,28-01-2024 17:00:13,0.200s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 17:00:13,28-01-2024 17:00:13,0.062s,ERROR
+,,,,,,,
+Test Cases/TC_Amazon/Manual mode/TC_AmazonValidate_Login_002,Chrome 120.0.0.0,,,28-01-2024 17:00:13,28-01-2024 17:00:13,0.241s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 17:00:13,28-01-2024 17:00:13,0.097s,ERROR
+return null,Chrome 120.0.0.0,,,28-01-2024 17:00:13,28-01-2024 17:00:13,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 17:00:13,28-01-2024 17:00:13,0.065s,ERROR

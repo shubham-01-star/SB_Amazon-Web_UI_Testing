@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+record and play,Chrome 120.0.0.0,,,28-01-2024 03:05:17,28-01-2024 03:05:51,34.053s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_ValidateCreateNewAC_001,Chrome 120.0.0.0,,,28-01-2024 03:05:18,28-01-2024 03:05:42,24.222s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 03:05:19,28-01-2024 03:05:23,4.224s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,28-01-2024 03:05:23,28-01-2024 03:05:29,5.696s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,28-01-2024 03:05:29,28-01-2024 03:05:32,3.248s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,28-01-2024 03:05:32,28-01-2024 03:05:34,2.213s,PASSED
+"setText(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_customerName""), ""subham"")",Chrome 120.0.0.0,,,28-01-2024 03:05:34,28-01-2024 03:05:36,1.436s,PASSED
+"setText(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_email""), ""shubham@gmail.com"")",Chrome 120.0.0.0,,,28-01-2024 03:05:36,28-01-2024 03:05:37,0.902s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_password""), ""tnXB1jbPNDAOVoUnr2O+7A=="")",Chrome 120.0.0.0,,,28-01-2024 03:05:37,28-01-2024 03:05:38,0.695s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_passwordCheck""), ""tnXB1jbPNDAOVoUnr2O+7A=="")",Chrome 120.0.0.0,,,28-01-2024 03:05:38,28-01-2024 03:05:38,0.664s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/inputcontinue""))",Chrome 120.0.0.0,,,28-01-2024 03:05:38,28-01-2024 03:05:41,2.468s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/div_Theres already an account with this ema_a5b427""), 0)",Chrome 120.0.0.0,,,28-01-2024 03:05:41,28-01-2024 03:05:42,0.973s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 03:05:42,28-01-2024 03:05:42,0.368s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_Validate_Customer_Service_005,Chrome 120.0.0.0,,,28-01-2024 03:05:42,28-01-2024 03:05:51,9.216s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 03:05:42,28-01-2024 03:05:44,1.531s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,28-01-2024 03:05:44,28-01-2024 03:05:47,2.928s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input""))",Chrome 120.0.0.0,,,28-01-2024 03:05:47,28-01-2024 03:05:48,1.133s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/a_Customer Service""))",Chrome 120.0.0.0,,,28-01-2024 03:05:48,28-01-2024 03:05:50,2.380s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Help  Contact Us - Amazon Customer Service/h1_Welcome to Amazon Customer Service""), 0)",Chrome 120.0.0.0,,,28-01-2024 03:05:50,28-01-2024 03:05:51,0.732s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 03:05:51,28-01-2024 03:05:51,0.260s,PASSED

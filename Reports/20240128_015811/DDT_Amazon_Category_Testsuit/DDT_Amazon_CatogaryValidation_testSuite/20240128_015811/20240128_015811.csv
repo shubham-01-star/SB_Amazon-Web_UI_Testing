@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Amazon_CatogaryValidation_testSuite,Firefox 122.0,,,28-01-2024 01:58:21,28-01-2024 01:59:01,39.595s,FAILED
+,,,,,,,
+Test Cases/DDT/TC_Validation Amazon Category_Excel_003,Firefox 122.0,,,28-01-2024 01:58:22,28-01-2024 01:58:37,15.659s,FAILED
+"openBrowser("""")",Firefox 122.0,,,28-01-2024 01:58:23,28-01-2024 01:58:31,8.650s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,28-01-2024 01:58:31,28-01-2024 01:58:34,2.908s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/categoryElement""), category, false)",Firefox 122.0,,,28-01-2024 01:58:34,28-01-2024 01:58:37,3.284s,FAILED
+,,,,,,,
+Test Cases/DDT/TC_Validation Amazon Category_Excel_003,Firefox 122.0,,,28-01-2024 01:58:38,28-01-2024 01:58:52,14.856s,FAILED
+"openBrowser("""")",Firefox 122.0,,,28-01-2024 01:58:38,28-01-2024 01:58:46,8.549s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,28-01-2024 01:58:46,28-01-2024 01:58:50,3.653s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/categoryElement""), category, false)",Firefox 122.0,,,28-01-2024 01:58:50,28-01-2024 01:58:52,2.553s,FAILED
+,,,,,,,
+Test Cases/DDT/TC_Validation Amazon Category_Excel_003,Firefox 122.0,,,28-01-2024 01:58:52,28-01-2024 01:59:01,8.251s,FAILED
+"openBrowser("""")",Firefox 122.0,,,28-01-2024 01:58:53,28-01-2024 01:59:01,8.200s,FAILED

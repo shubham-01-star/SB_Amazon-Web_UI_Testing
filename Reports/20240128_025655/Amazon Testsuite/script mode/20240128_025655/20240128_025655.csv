@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+script mode,Chrome 120.0.0.0,,,28-01-2024 02:57:02,28-01-2024 02:57:18,16.166s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006,Chrome 120.0.0.0,,,28-01-2024 02:57:02,28-01-2024 02:57:18,15.814s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 02:57:03,28-01-2024 02:57:06,2.861s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,28-01-2024 02:57:06,28-01-2024 02:57:09,3.031s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input""))",Chrome 120.0.0.0,,,28-01-2024 02:57:09,28-01-2024 02:57:11,1.702s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/a_Todays Deals""))",Chrome 120.0.0.0,,,28-01-2024 02:57:11,28-01-2024 02:57:15,4.414s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon  Deals/div_Todays Deals                        Cou_7c1b01""), 0)",Chrome 120.0.0.0,,,28-01-2024 02:57:15,28-01-2024 02:57:18,2.864s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 02:57:18,28-01-2024 02:57:18,0.397s,PASSED

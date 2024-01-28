@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite" time="63.694" tests="5" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite" tests="5" failures="0" errors="0" time="63.694" skipped="0" timestamp="28-01-2024T02:47:49" hostname="User - DESKTOP-RHVOQ3Q" id="Test Suites/Amazon_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\SB_Amazon-Web_UI_Testing\\Reports\\20240128_024742\\Amazon_TestSuite\\20240128_024742"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\SB_Amazon-Web_UI_Testing\\Reports\\20240128_024742\\Amazon_TestSuite\\20240128_024742\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-RHVOQ3Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="1a99fea9f64f1a4b5a9adb84bcd363c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006" time="12.054" classname="Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006" status="PASSED">
+         <system-out><![CDATA[28-01-2024T02:47:49 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006: Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006
+
+28-01-2024T02:47:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T02:47:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T02:47:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T02:47:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T02:47:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com"): Navigate to 'https://www.amazon.com' successfully
+
+28-01-2024T02:47:57 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com' successfully
+
+28-01-2024T02:47:57 - [TEST_STEP][PASSED] - click(findTestObject("AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Deliver to                                                   India")): Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Deliver to                                                   India' is clicked on
+
+28-01-2024T02:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Deliver to                                                   India' is clicked on
+
+28-01-2024T02:47:58 - [TEST_STEP][PASSED] - click(findTestObject("AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Ship outside the US")): Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Ship outside the US' is clicked on
+
+28-01-2024T02:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Ship outside the US' is clicked on
+
+28-01-2024T02:48:00 - [TEST_STEP][PASSED] - click(findTestObject("AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Singapore")): Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Singapore' is clicked on
+
+28-01-2024T02:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Singapore' is clicked on
+
+28-01-2024T02:48:01 - [TEST_STEP][PASSED] - click(findTestObject("AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/button_Done")): Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/button_Done' is clicked on
+
+28-01-2024T02:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/button_Done' is clicked on
+
+28-01-2024T02:48:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T02:48:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon/Manual mode/TC_AmazonValidate_Login_002" time="12.754" classname="Test Cases/TC_Amazon/Manual mode/TC_AmazonValidate_Login_002" status="PASSED">
+         <system-out><![CDATA[28-01-2024T02:48:01 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/Manual mode/TC_AmazonValidate_Login_002: Test Cases/TC_Amazon/Manual mode/TC_AmazonValidate_Login_002
+
+28-01-2024T02:48:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T02:48:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T02:48:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T02:48:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T02:48:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_Validate_login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+28-01-2024T02:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+28-01-2024T02:48:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_email"), "9294923885"): Text '9294923885' is set on object 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_email'
+
+28-01-2024T02:48:11 - [MESSAGE][PASSED] - Text '9294923885' is set on object 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_email'
+
+28-01-2024T02:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+28-01-2024T02:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+28-01-2024T02:48:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_password'
+
+28-01-2024T02:48:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_password'
+
+28-01-2024T02:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+28-01-2024T02:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+28-01-2024T02:48:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T02:48:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_ValidateCreateNewAC_001" time="17.446" classname="Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_ValidateCreateNewAC_001" status="PASSED">
+         <system-out><![CDATA[28-01-2024T02:48:14 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_ValidateCreateNewAC_001: Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_ValidateCreateNewAC_001
+
+28-01-2024T02:48:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T02:48:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T02:48:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T02:48:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T02:48:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:18 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+28-01-2024T02:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+28-01-2024T02:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Sign-In/a_Create your Amazon account")): Object: 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+28-01-2024T02:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+28-01-2024T02:48:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_customerName"), "subham"): Text 'subham' is set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_customerName'
+
+28-01-2024T02:48:25 - [MESSAGE][PASSED] - Text 'subham' is set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_customerName'
+
+28-01-2024T02:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_email"), "shubham@gmail.com"): Text 'shubham@gmail.com' is set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_email'
+
+28-01-2024T02:48:26 - [MESSAGE][PASSED] - Text 'shubham@gmail.com' is set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_email'
+
+28-01-2024T02:48:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_password"), "tnXB1jbPNDAOVoUnr2O+7A=="): Text ****** has been set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_password'
+
+28-01-2024T02:48:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_password'
+
+28-01-2024T02:48:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_passwordCheck"), "tnXB1jbPNDAOVoUnr2O+7A=="): Text ****** has been set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_passwordCheck'
+
+28-01-2024T02:48:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/input_passwordCheck'
+
+28-01-2024T02:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+28-01-2024T02:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+28-01-2024T02:48:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/div_Theres already an account with this ema_a5b427"), 0): Object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/div_Theres already an account with this ema_a5b427' is present
+
+28-01-2024T02:48:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-01-2024T02:48:31 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonHome_Validate_CreateNewAC_OR/Page_Amazon Registration/div_Theres already an account with this ema_a5b427' is present
+
+28-01-2024T02:48:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T02:48:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_Validate_Customer_Service_005" time="8.585" classname="Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_Validate_Customer_Service_005" status="PASSED">
+         <system-out><![CDATA[28-01-2024T02:48:32 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_Validate_Customer_Service_005: Test Cases/TC_Amazon/Record and play back mode/TC_AmazonHome_Validate_Customer_Service_005
+
+28-01-2024T02:48:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T02:48:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T02:48:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T02:48:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T02:48:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:36 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input")): Object: 'Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input' is clicked on
+
+28-01-2024T02:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input' is clicked on
+
+28-01-2024T02:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/a_Customer Service")): Object: 'Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/a_Customer Service' is clicked on
+
+28-01-2024T02:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/a_Customer Service' is clicked on
+
+28-01-2024T02:48:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Help  Contact Us - Amazon Customer Service/h1_Welcome to Amazon Customer Service"), 0): Object 'Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Help  Contact Us - Amazon Customer Service/h1_Welcome to Amazon Customer Service' is present
+
+28-01-2024T02:48:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-01-2024T02:48:40 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Help  Contact Us - Amazon Customer Service/h1_Welcome to Amazon Customer Service' is present
+
+28-01-2024T02:48:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T02:48:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006" time="12.442" classname="Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006" status="PASSED">
+         <system-out><![CDATA[28-01-2024T02:48:40 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006: Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006
+
+28-01-2024T02:48:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2024T02:48:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2024T02:48:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2024T02:48:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2024T02:48:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:44 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+28-01-2024T02:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input")): Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input' is clicked on
+
+28-01-2024T02:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input' is clicked on
+
+28-01-2024T02:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/a_Todays Deals")): Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/a_Todays Deals' is clicked on
+
+28-01-2024T02:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/a_Todays Deals' is clicked on
+
+28-01-2024T02:48:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon  Deals/div_Todays Deals                        Cou_7c1b01"), 0): Object 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon  Deals/div_Todays Deals                        Cou_7c1b01' is present
+
+28-01-2024T02:48:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-01-2024T02:48:52 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon  Deals/div_Todays Deals                        Cou_7c1b01' is present
+
+28-01-2024T02:48:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-01-2024T02:48:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T02:47:49 - [TEST_SUITE][PASSED] - Amazon_TestSuite: Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

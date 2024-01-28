@@ -5,28 +5,37 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>93af2d5f-39e0-4ca1-b9c9-ec9d66a26bdc</testSuiteGuid>
    <testCaseLink>
-      <guid>cd979365-bca1-48ef-8eca-3b632ac985a9</guid>
+      <guid>bdc91dbb-07a6-4ce7-b3ad-5715e01c1ce8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DDT/TC_Validation Amazon Category_Excel_001</testCaseId>
+      <testCaseId>Test Cases/DDT/TC_Validation Amazon Category_Excel_003</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2be617c5-b9a9-4636-8549-bc5d5473fb41</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DDT_TestData/Amazon_Testdataexcel_Category</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>2be617c5-b9a9-4636-8549-bc5d5473fb41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
          <variableId>c119eebe-1ebd-44b7-9166-0a171c88c413</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>2be617c5-b9a9-4636-8549-bc5d5473fb41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item</value>
          <variableId>fc39c1c9-679c-4311-81fb-0acbb1c5838c</variableId>
       </variableLink>
    </testCaseLink>

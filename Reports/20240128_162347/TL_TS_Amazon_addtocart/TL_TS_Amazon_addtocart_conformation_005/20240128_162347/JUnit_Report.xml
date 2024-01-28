@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_TS_Amazon_addtocart_conformation_005" time="58.545" tests="1" failures="0" errors="0">
+   <testsuite name="TL_TS_Amazon_addtocart_conformation_005" tests="1" failures="0" errors="0" time="58.545" skipped="0" timestamp="28-01-2024T16:23:58" hostname="User - DESKTOP-RHVOQ3Q" id="Test Suites/TL_TS_Amazon_addtocart/TL_TS_Amazon_addtocart_conformation_005">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\SB_Amazon-Web_UI_Testing\\Reports\\20240128_162347\\TL_TS_Amazon_addtocart\\TL_TS_Amazon_addtocart_conformation_005\\20240128_162347"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\SB_Amazon-Web_UI_Testing\\Reports\\20240128_162347\\TL_TS_Amazon_addtocart\\TL_TS_Amazon_addtocart_conformation_005\\20240128_162347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-RHVOQ3Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="4721f68f752143804f3eef4936032f68"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Test_Listener/TC_TS_Amazon_AddtoCart_Conformation_005" time="44.577" classname="Test Cases/TC_Test_Listener/TC_TS_Amazon_AddtoCart_Conformation_005" status="PASSED">
+         <system-out><![CDATA[28-01-2024T16:24:12 - [TEST_CASE][PASSED] - Test Cases/TC_Test_Listener/TC_TS_Amazon_AddtoCart_Conformation_005: Test Cases/TC_Test_Listener/TC_TS_Amazon_AddtoCart_Conformation_005
+
+28-01-2024T16:24:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+28-01-2024T16:24:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/input_email"), "9294923885"): Text '9294923885' is set on object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/input_email'
+
+28-01-2024T16:24:13 - [MESSAGE][PASSED] - Text '9294923885' is set on object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/input_email'
+
+28-01-2024T16:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+28-01-2024T16:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+28-01-2024T16:24:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/input_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/input_password'
+
+28-01-2024T16:24:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/input_password'
+
+28-01-2024T16:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+28-01-2024T16:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+28-01-2024T16:24:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+28-01-2024T16:24:26 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+28-01-2024T16:24:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "DA VINCI CODE"): Text 'DA VINCI CODE' is set on object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+28-01-2024T16:24:27 - [MESSAGE][PASSED] - Text 'DA VINCI CODE' is set on object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+28-01-2024T16:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+28-01-2024T16:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+28-01-2024T16:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_The Da Vinci Code (Robert Langdon)")): Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_The Da Vinci Code (Robert Langdon)' is clicked on
+
+28-01-2024T16:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_The Da Vinci Code (Robert Langdon)' is clicked on
+
+28-01-2024T16:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_AddtoCart_conformation_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-cart")): Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-cart' is clicked on
+
+28-01-2024T16:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-cart' is clicked on
+
+28-01-2024T16:24:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/span_Added to Cart"), 0): Object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/span_Added to Cart' is present
+
+28-01-2024T16:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-01-2024T16:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/span_Added to Cart' is present
+
+28-01-2024T16:24:52 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/Checkpoint_Excel/Checkpoint_testdata_internal"), true): Checkpoint data and Source data are matched
+
+28-01-2024T16:24:52 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+28-01-2024T16:24:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+28-01-2024T16:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite")): Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite' is clicked on
+
+28-01-2024T16:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite' is clicked on
+
+28-01-2024T16:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out")): Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+28-01-2024T16:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T16:23:58 - [TEST_SUITE][PASSED] - TL_TS_Amazon_addtocart_conformation_005: Test Cases/TC_Test_Listener/TC_TS_Amazon_AddtoCart_Conformation_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
